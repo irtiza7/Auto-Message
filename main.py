@@ -5,8 +5,8 @@ from datetime import date
 import time
 import pywhatkit as pywt
 
-contact = "+923090047457"  # input("Enter the contact: ")
-message = "Automatic Message."  # input("Enter the message: ")
+contact = input("Enter the contact: ")
+message = input("Enter the message: ")
 tragetted_hour = int(input("Enter hour (in 24-hour format): "))
 tragetted_minutes = int(input("Enter minutes: "))
 targetted_date = int(input("Enter date (01 to 31): "))
