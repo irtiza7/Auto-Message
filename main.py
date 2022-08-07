@@ -1,6 +1,5 @@
 import pywhatkit as pywt
 
-# contact = "+923304313760"
 contact = input("Enter the contact: ")
 message = input("Enter the message: ")
 hour = input("Enter the hour: ")
