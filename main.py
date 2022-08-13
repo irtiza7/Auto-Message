@@ -14,7 +14,7 @@ wait_sec = int(input("After how many seconds (15 to onwards) to send the message
 while True:
     today_date = date.today()
 
-    # %d extracts the date from the entire data-string returned by today_date
+    # %d extracts the date from the entire date-string returned by today_date
     if targetted_date == int(today_date.strftime("%d")):
         break
 
